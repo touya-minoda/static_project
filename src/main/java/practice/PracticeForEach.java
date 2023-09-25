@@ -9,5 +9,4 @@ public class PracticeForEach {
 			System.out.println(order);
 		}
 	}
-
 }

@@ -28,10 +28,7 @@ public class PracticeSwitch {
 			default:
 				System.out.println("見習い");
 				break;
-		}
-		
-		
+			}
 		}
 	}
-
 }
