@@ -1,9 +1,16 @@
 package practice;
 
+import java.util.Arrays;
+import java.util.Random;
+
+
 public class PracticeSwitch {
 
 	public static void main(String[] args) {
-		int[] members = { 1, 2, 3, 4, 5, 4, 2, 3, 1, 5 };
+		
+		int[] members = new Random().ints(10,0,5).toArray();
+		
+		System.out.println( Arrays.toString(members) );
 
 		for (int i = 0; i < members.length; i++) {
 			int num = 0;
